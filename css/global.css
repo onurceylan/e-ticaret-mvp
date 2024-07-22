@@ -1,0 +1,19 @@
+.removeDots{
+    list-style-type: none;
+}
+/* Text */
+
+.text-center{ /* fonk gibi düşün class a bunu yazdığımızda bu özellik çalışıyor*/
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    margin: 1rem;
+    padding:1rem; 
+}
+#navbar{
+    color: #1e1e2a;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 0.75rem;
+    height: 70px;
+
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    
+    background: #d2dde7;
+    border-radius: 4px;
+}
+#home{
+    color: #333;
+    padding: 1rem;
+}
+#home .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.giris{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
