@@ -1,2 +1,9 @@
 [build]
   publish = "public"
+  command = "echo 'Netlify build'"
+
+[[redirects]]
+  from = "/*"
+  to = "/anaSayfa.html"
+  status = 200
+
